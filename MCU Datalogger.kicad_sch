@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "d838f63e-73b0-481c-88b0-b8875dd02c2f")
 	(paper "A4")
+	(title_block
+		(title "${project_name}")
+		(date "2024-09-19")
+		(rev "1")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
