@@ -492,11 +492,11 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "/Vcc"
+        "pattern": "GND"
       },
       {
         "netclass": "Power",
-        "pattern": "/GND"
+        "pattern": "/Vcc"
       }
     ]
   },
