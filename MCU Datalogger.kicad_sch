@@ -4229,6 +4229,17 @@
 		(uuid "9745f3af-e732-4d68-9503-e854feea861e")
 	)
 	(label "Vcc"
+		(at 267.97 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a075be60-cead-47d0-b1ba-b72881f94d3d")
+	)
+	(label "Vcc"
 		(at 68.58 102.87 0)
 		(fields_autoplaced yes)
 		(effects

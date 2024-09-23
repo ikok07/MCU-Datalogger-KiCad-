@@ -1425,7 +1425,7 @@
 			)
 		)
 		(property "Purpose" "GPIO"
-			(at 45.72 50.546 0)
+			(at 45.212 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
