@@ -869,7 +869,7 @@
 		)
 		(uuid "03bdf573-ce72-4254-8617-4373b8dbb025")
 	)
-	(hierarchical_label "SCK"
+	(hierarchical_label "SCL"
 		(shape passive)
 		(at 49.53 41.91 0)
 		(fields_autoplaced yes)
