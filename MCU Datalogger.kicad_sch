@@ -2679,16 +2679,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 73.66) (xy 204.47 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0628f352-7db0-4f27-a7e5-05182ad740fe")
-	)
-	(wire
-		(pts
 			(xy 236.22 85.09) (xy 242.57 85.09)
 		)
 		(stroke
@@ -2769,16 +2759,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 76.2) (xy 204.47 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a526869-406e-4ebe-8672-cfdb000b3d21")
-	)
-	(wire
-		(pts
 			(xy 81.28 114.3) (xy 81.28 121.92)
 		)
 		(stroke
@@ -2796,16 +2776,6 @@
 			(type default)
 		)
 		(uuid "1c3714d6-f141-4f91-9bb1-3ea5b0d5d996")
-	)
-	(wire
-		(pts
-			(xy 204.47 48.26) (xy 204.47 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc1be65-b83a-4733-bb8f-1bef122af0a5")
 	)
 	(wire
 		(pts
@@ -3379,16 +3349,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 50.8) (xy 204.47 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5eef54a-b22e-4754-83d3-fb7f691d289d")
-	)
-	(wire
-		(pts
 			(xy 204.47 40.64) (xy 204.47 41.91)
 		)
 		(stroke
@@ -3669,16 +3629,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 33.02) (xy 254 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1993b80-f2ba-4f5b-b822-e8f389c3b145")
-	)
-	(wire
-		(pts
 			(xy 20.32 44.45) (xy 44.45 44.45)
 		)
 		(stroke
@@ -3876,7 +3826,7 @@
 		)
 		(uuid "01c80479-74fa-41f2-93da-27d2d48544b2")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 90.17 121.92 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3931,8 +3881,8 @@
 		)
 		(uuid "171b4f90-2792-430c-9195-080d001b7016")
 	)
-	(label "SCK"
-		(at 204.47 77.47 180)
+	(label "SCL"
+		(at 204.47 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3942,7 +3892,7 @@
 		)
 		(uuid "206c1d46-b406-4e8b-8a1a-424d58f8341a")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 44.45 41.91 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3997,7 +3947,7 @@
 		)
 		(uuid "2f24532b-e432-4ad1-8bf8-dafe40940cd5")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 45.72 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4029,6 +3979,17 @@
 			(justify right bottom)
 		)
 		(uuid "436cdcdc-8ebb-495a-bf20-80f0d5bac7ec")
+	)
+	(label "SCK"
+		(at 226.06 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "498d819d-7316-4f47-87af-cf7624570263")
 	)
 	(label "RX"
 		(at 234.95 41.91 0)
@@ -4085,7 +4046,7 @@
 		)
 		(uuid "51664583-7650-4ded-8dd7-70f882333e5c")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 226.06 120.65 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4151,7 +4112,7 @@
 		)
 		(uuid "74e7f99f-f117-4f27-afa8-832c5f31720a")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 78.74 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4262,7 +4223,7 @@
 		(uuid "a9028170-a7c3-4d8f-a1ea-424ccdeb5649")
 	)
 	(label "SDA"
-		(at 204.47 74.93 180)
+		(at 204.47 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4273,7 +4234,7 @@
 		(uuid "aafb3c98-80c5-4911-bdb6-59355767281b")
 	)
 	(label "MISO"
-		(at 204.47 52.07 180)
+		(at 204.47 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4306,7 +4267,7 @@
 		(uuid "b4067354-7091-4a1a-b5a6-e817b6b800a4")
 	)
 	(label "MOSI"
-		(at 204.47 49.53 180)
+		(at 204.47 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6242,72 +6203,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 254 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3c91457-5ae4-4742-b58d-f827ad2fa17a")
-		(property "Reference" "#FLG01"
-			(at 254 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 254 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 254 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6583125-3c28-4384-8b98-bc4cb25cbbc4")
-		)
-		(instances
-			(project ""
-				(path "/d838f63e-73b0-481c-88b0-b8875dd02c2f"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal")
 		(at 182.88 62.23 90)
 		(unit 1)
@@ -7350,16 +7245,6 @@
 				(justify left top)
 			)
 		)
-		(pin "SCK" passive
-			(at 226.06 120.65 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "86bf07a3-3685-4af4-b2b5-a29ee5db5e4d")
-		)
 		(pin "MISO" output
 			(at 226.06 135.89 180)
 			(effects
@@ -7509,6 +7394,26 @@
 				(justify right)
 			)
 			(uuid "7bd8f078-1c94-4792-a72e-a54875ac4c80")
+		)
+		(pin "SCL" passive
+			(at 226.06 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c081e855-e343-4524-b385-a9e1946d3788")
+		)
+		(pin "SCK" passive
+			(at 226.06 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "15ed51b7-cb54-440f-9a0a-0986094233ac")
 		)
 		(instances
 			(project "MCU Datalogger"
